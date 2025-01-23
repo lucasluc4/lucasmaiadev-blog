@@ -1,0 +1,37 @@
+baseurl: https://lucasmaia.dev/
+languageCode: pt-br
+theme: stack
+title: Lucas Maia
+copyright: lucasmaia.dev
+
+params:
+  sidebar:
+    subtitle: Software Engineer | Product Enthusiast
+    emoji: ☕
+    avatar:
+      local: true
+      enabled: true
+      src: img/avatar.jpg
+
+
+menu:
+    main: []
+
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/lucasluc4
+          params:
+              icon: brand-github
+
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/lucascmaia/
+          params:
+              icon: brand-linkedin
+        
+        - identifier: bluesky
+          name: Bluesky
+          url: https://bsky.app/profile/lucasmaia.dev
+          params:
+              icon: brand-bluesky
