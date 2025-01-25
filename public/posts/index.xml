@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Lucas Maia</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on Lucas Maia</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <copyright>lucasmaia.dev</copyright>
+        <lastBuildDate>Sat, 25 Jan 2025 11:10:10 -0300</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sobre o que vou escrever neste blog</title>
+        <link>http://localhost:1313/posts/sobre_o_que_vou_escrever/</link>
+        <pubDate>Sat, 25 Jan 2025 11:10:10 -0300</pubDate>
+        
+        <guid>http://localhost:1313/posts/sobre_o_que_vou_escrever/</guid>
+        <description>&lt;h1 id=&#34;sobre-o-que-vou-escrever-neste-blog&#34;&gt;Sobre o que vou escrever neste blog
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
