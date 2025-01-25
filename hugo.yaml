@@ -13,6 +13,9 @@ params:
       enabled: true
       src: img/avatar.jpg
 
+services:
+  googleAnalytics:
+    id: G-5PJKXGQP88
 
 menu:
     main: []
