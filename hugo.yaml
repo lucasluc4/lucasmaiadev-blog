@@ -13,7 +13,13 @@ params:
       enabled: true
       src: img/avatar.jpg
 
+  comments:
+    enabled: true
+    provider: disqus
+
 services:
+  disqus:
+    shortname: "lucasmaia-dev"
   googleAnalytics:
     id: G-5PJKXGQP88
 
