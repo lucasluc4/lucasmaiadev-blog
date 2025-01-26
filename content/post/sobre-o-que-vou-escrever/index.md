@@ -8,7 +8,7 @@ Confesso que sou um pouco crítico desse movimento mais recente de produção em
 
 Ler algo significa que você pode avançar exatamente para o trecho do assunto que especificamente lhe interessa, ou seguir a leitura no próprio ritmo, ou voltar facilmente para a referência de um trecho importante do texto. Então no fim acho que o que mais me atrai nesse formato escrito é que a navegação no conteúdo é muito mais facilitada do que qualquer conteúdo falado.
 
-Eu não tenho a menor intenção nesse blog de emitir opinião. Acho que eu precisaria me dedicar profundamente a produção científica em assuntos subjetivos para de alguma maneira me sentir minimamente seguro de que minha opinião sobre algo pudesse contribuir a uma audiência mais ampla; e eu tenho o real objetivo de usar esse espaço para contribuir. Então no geral esse blog vai concentrar alguns artigos mais objetivos sobre assuntos que tenho maior domínio, e que sinto falta da existência de mais material sobre; mas principalmente minha intenção é usar esse espaço para promover e falar sobre alguns projetos pessoas que devo lançar em breve, como minha aplicação financeira. À medida que esses artigos forem lançados, eu vou editar este texto para incluir links e resumos, para que ele sirva como um guia para o conteúdo geral do site (o complemento do título desse artigo entre parêntesis é uma tentativa de prever esse movimento).
+Eu não tenho a menor intenção nesse blog de emitir opinião. Acho que eu precisaria me dedicar profundamente a produção científica em assuntos subjetivos para de alguma maneira me sentir minimamente seguro de que minha opinião sobre algo pudesse contribuir a uma audiência mais ampla; e eu tenho o real objetivo de usar esse espaço para contribuir. Então no geral esse blog vai concentrar alguns artigos mais objetivos sobre assuntos que tenho maior domínio, e que sinto falta da existência de mais material sobre; mas principalmente minha intenção é usar esse espaço para promover e falar sobre alguns projetos pessoas que devo lançar em breve, como minha aplicação financeira. À medida que esses artigos forem lançados, eu vou editar este texto para incluir links e resumos, para que ele sirva como um guia para o conteúdo geral do site (o complemento do título desse artigo entre parêntesis é uma tentativa de prever esse movimento). Um primeiro conjunto desses artigos, que é sobre a minha aplicação que estou chamando carinhosamente de Meu Bolso, pode ser acessado em https://www.lucasmaia.dev/post/aplicacao-meu-bolso/. Vou incluir esse link também na seção links úteis, ali embaixo.
 
 Portanto, espere nesse site artigos sobre tecnologia, finanças pessoais e principalmente sobre meus projetos pessoais. E de vez em quando algum artigo perdido sobre algum hobby meu, se eu achar que pode ser útil.
 
@@ -19,3 +19,8 @@ Se você acha que pode contribuir com algum texto ou assunto, esse blog possui c
 De antemão, obrigado pela leitura e por qualquer contribuição eventual, e espero humildemente que essa página cumpra seu objetivo maior de utilidade. Se algum artigo lhe for útil, eu serei grato se puder dedicar um tempo para deixar um comentário, já que pode ajudar como fator motivacional e a perceber que tipo de assunto eu deveria investir mais meu tempo.
 
 Até logo, obrigado, e boa leitura!
+
+# Links úteis
+
+- Se você tem interesse em saber mais sobre a minha aplicação Meu Bolso, acesse o artigo sobre, nesse link: https://www.lucasmaia.dev/post/aplicacao-meu-bolso/.
+
