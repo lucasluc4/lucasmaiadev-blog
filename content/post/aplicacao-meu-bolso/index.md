@@ -34,7 +34,7 @@ Sinto que controlar gastos, economia e rendimento de maneira mais macro é uma f
 
 # Como o Meu Bolso funciona
 
- O Meu Bolso funciona de maneira relativamente simples. No fim de cada mês (ou em alguma outra data que ache pertinente, desde que seja sempre no mesmo dia), você precisa visitar cada uma das suas contas bancárias, ou contas em agências financeiras, e incluir na plataforma os valores dos saldos. Você também precisa incluir as suas receitas principais - como o salário. Não é necessário incluir receitas como rendimento de investimentos, já que com o saldo a aplicação já consegue calcular isso automaticamente, mas é necessário incluir as movimentações nessas contas, como novos investimentos ou retiradas.
+ O Meu Bolso funciona de maneira relativamente simples. No fim de cada mês (ou em alguma outra data que ache pertinente, desde que seja sempre no mesmo dia), você precisa visitar cada uma das suas contas bancárias, ou contas em agências financeiras, e incluir na plataforma os valores dos saldos. Você também precisa incluir as suas receitas principais - como o salário. Não é necessário incluir receitas como rendimento de investimentos, já que com o saldo a aplicação já consegue calcular isso automaticamente, mas é necessário incluir as movimentações nessas contas, como novos investimentos ou retiradas. Parece bastante trabalho, mas não é. Mesmo com umas 7 contas a atualizar, eu não demoro mais do que 15 minutos por mês nesse processo.
 
 Cada conta em uma agência dessas precisa ser mapeada para uma conta dentro da plataforma, então é necessário uma configuração inicial que reflita o seu contexto atual. Essas contas cadastradas possuem tipos que ajudam a aplicação a calcular os gastos e rendimentos mais facilmente.
 
@@ -44,9 +44,9 @@ Com todas essas inclusões, a ferramenta consegue calcular:
 
 - o seu patrimônio total;
 - o quanto seu patrimônio evoluiu de um mês para o outro;
+- o quanto dessa evolução foi devido a ganhos passivos e o quanto tem rendido no total sua carteira de investimentos;
 - a sua receita total;
 - o quanto das suas receitas você conseguiu economizar, em valores absolutos e em porcentagem;
-- quanto dessa evolução foi devido a ganhos passivos e o quanto tem rendido no total sua carteira de investimentos;
 - o quanto você tem reservado em cofrinhos para poder gastar em compras maiores;
 
 Esses valores calculados ficam armazenados em um histórico, e você tem uma idéia de como anda a sua evolução patrimonial mensalmente.
