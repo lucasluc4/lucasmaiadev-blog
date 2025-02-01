@@ -58,3 +58,15 @@ No futuro breve, queremos incluir maneiras de exportar essas informações em fo
 Eu planejo escrever uma série de artigos para explicar o funcionamento da aplicação como um todo, e alguns guias e tutorias de ajuda. Vou adicionar os endereços aqui à medida que conseguir concluí-los.
 
 Por enquanto, o próximo passo é acessar a começar a utilizar a aplicação Meu Bolso disponível em https://meubolso.lucasmaia.dev.
+
+# Como posso ajudar?
+
+Eu geralmente trabalho no Meu Bolso sozinho e nas minhas horas vagas, e mantenho os servidores com meu próprio dinheiro, o que significa que ajuda é bem-vinda.
+
+Apesar de ser um usuário assíduo da minha própria aplicação, eu conheço muito bem como ela funciona e que caminhos tomar, e o que cada mensagem de erro significa, mas não tenho como garantir que todos os possíveis cenários de erro estão cobertos e que todas as mensagens de feedback são intuitivas. Se você perceber algum problema, ou tiver alguma idéia de como melhorar algum fluxo, para deixá-lo mais intuitivo, entre em contato comigo pelo e-mail contato@lucasmaia.dev, ou deixe um comentário nessa postagem.
+
+Financeiramente, ainda estou pensando em formas de conseguir ajuda. Vou atualizar essa postagem, ou escrever alguma específica no futuro, quando tiver um plano definido. Essa ajuda financeira será destinada principalmente a manutenção dos custos dos servidores e para a compra de um design system para melhorar a aparência do sistema, que, apesar de funcional, não vai ganhar nenhum concurso de design.
+
+# Um comentário rápido sobre responsividade
+
+Embora eu tenha tentado deixar a interface a mais responsiva possível, é um tipo de conteúdo que é difícil adaptar para telas menores, com a quantidade de tabelas que existe. Se possível, recomendo o acesso via computadores ou tablets. Qualquer sugestão de melhoria é bem-vinda.
