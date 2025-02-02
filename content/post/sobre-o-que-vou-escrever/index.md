@@ -2,6 +2,7 @@
 date = '2025-01-25T11:10:10-03:00'
 draft = false
 title = 'Sobre o que vou escrever nessa página (ou um guia geral do site)'
+image = 'andrew-ridley-jR4Zf-riEjI-unsplash.jpg'
 +++
 
 Confesso que sou um pouco crítico desse movimento mais recente de produção em massa de conteúdo em vídeo, e abandono de qualquer outro formato, embora naturalmente eu reconheça sua motivação e as vantagens envolvidas. E, de fato, em algumas situações é claramente o melhor meio, principalmente por conta da praticidade, dinamismo, e facilidade de entendimento. Mesmo assim me pego em várias situações sentindo falta de mais conteúdo escrito.
@@ -23,4 +24,8 @@ Até logo, obrigado, e boa leitura!
 # Links úteis
 
 - Se você tem interesse em saber mais sobre a minha aplicação Meu Bolso, acesse o artigo sobre, nesse link: https://www.lucasmaia.dev/post/aplicacao-meu-bolso/.
+
+# Imagem de capa
+
+A foto de capa é de [Andrew Ridley](https://unsplash.com/@aridley88?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) e está disponível no [Unsplash](https://unsplash.com/photos/a-multicolored-tile-wall-with-a-pattern-of-small-squares-jR4Zf-riEjI)
 

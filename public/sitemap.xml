@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-25T11:10:10-03:00</lastmod>
+    <lastmod>2025-02-02T18:41:18-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-01-25T11:10:10-03:00</lastmod>
+    <lastmod>2025-02-02T18:41:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/meu-bolso-primeiros-passos/</loc>
+    <lastmod>2025-02-02T18:41:18-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/meu-bolso-principais-conceitos/</loc>
+    <lastmod>2025-02-02T18:37:04-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/aplicacao-meu-bolso/</loc>
+    <lastmod>2025-01-26T17:54:56-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/sobre-o-que-vou-escrever/</loc>
     <lastmod>2025-01-25T11:10:10-03:00</lastmod>

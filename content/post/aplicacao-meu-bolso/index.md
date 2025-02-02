@@ -2,6 +2,7 @@
 date = '2025-01-26T17:54:56-03:00'
 draft = false
 title = 'A Aplicação Meu Bolso'
+image = 'mike-hindle-9cYHodbnUIA-unsplash.jpg'
 +++
 
 Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em https://meubolso.lucasmaia.dev, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.
@@ -55,9 +56,12 @@ No futuro breve, queremos incluir maneiras de exportar essas informações em fo
 
 # Próximos passos
 
-Eu planejo escrever uma série de artigos para explicar o funcionamento da aplicação como um todo, e alguns guias e tutorias de ajuda. Vou adicionar os endereços aqui à medida que conseguir concluí-los.
+Temos dois artigos nesse blog que ajudam a dar os primeiros passos na aplicação e que explicam alguns conceitos fundamentais. Os artigos podem ser acessados através dos links:
 
-Por enquanto, o próximo passo é acessar a começar a utilizar a aplicação Meu Bolso disponível em https://meubolso.lucasmaia.dev.
+- [Primeiros passos na Meu Bolso](https://lucasmaia.dev/post/meu-bolso-primeiros-passos)
+- [Principais Conceitos da Meu Bolso](https://lucasmaia.dev/post/meu-bolso-principais-conceitos)
+
+Ou, se preferir já começar a utilizar a aplicação Meu Bolso, ela está disponível em https://meubolso.lucasmaia.dev.
 
 # Como posso ajudar?
 
@@ -70,3 +74,7 @@ Financeiramente, ainda estou pensando em formas de conseguir ajuda. Vou atualiza
 # Um comentário rápido sobre responsividade
 
 Embora eu tenha tentado deixar a interface a mais responsiva possível, é um tipo de conteúdo que é difícil adaptar para telas menores, com a quantidade de tabelas que existe. Se possível, recomendo o acesso via computadores ou tablets. Qualquer sugestão de melhoria é bem-vinda.
+
+# Imagem de capa
+
+A foto de capa é de [Mike Hindle](https://unsplash.com/@mikehindle) e está disponível no [Unsplash](https://unsplash.com/photos/9cYHodbnUIA)

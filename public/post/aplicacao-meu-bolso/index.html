@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em https://meubolso.lucasmaia.dev, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.\n">
+<title>A Aplicação Meu Bolso</title>
+
+<link rel='canonical' href='http://localhost:1313/post/aplicacao-meu-bolso/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="A Aplicação Meu Bolso">
+<meta property='og:description' content="Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em https://meubolso.lucasmaia.dev, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.\n">
+<meta property='og:url' content='http://localhost:1313/post/aplicacao-meu-bolso/'>
+<meta property='og:site_name' content='Lucas Maia'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-26T17:54:56-03:00'/><meta property='article:modified_time' content='2025-01-26T17:54:56-03:00'/><meta property='og:image' content='http://localhost:1313/post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash.jpg' />
+<meta name="twitter:title" content="A Aplicação Meu Bolso">
+<meta name="twitter:description" content="Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em https://meubolso.lucasmaia.dev, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash.jpg' />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PJKXGQP88"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5PJKXGQP88');
+        }
+      </script>
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu10502183085716828584.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">☕</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Lucas Maia</a></h1>
+            <h2 class="site-description">Software Engineer | Product Enthusiast</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://bsky.app/profile/lucasmaia.dev'
+                        target="_blank"
+                        title="Bluesky"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bluesky"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856z" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/lucasluc4'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/lucascmaia/'
+                        target="_blank"
+                        title="LinkedIn"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Página Inicial</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/aplicacao-meu-bolso/">
+                <img src="/post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash_hu13117757648376285977.jpg"
+                        srcset="/post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash_hu13117757648376285977.jpg 800w, /post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash_hu2498306171217712027.jpg 1600w"
+                        width="800" 
+                        height="1067" 
+                        loading="lazy"
+                        alt="Featured image of post A Aplicação Meu Bolso" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/aplicacao-meu-bolso/">A Aplicação Meu Bolso</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 26, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    8 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em <a class="link" href="https://meubolso.lucasmaia.dev"  target="_blank" rel="noopener"
+    >https://meubolso.lucasmaia.dev</a>, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.</p>
+<p>À medida que eu for lançando novas versões com novas funcionalidades, vou criando novos posts para divulgar e explicar como tudo funciona; e vou adicionar links aqui mesmo, neste artigo, para que isso funcione como um índice para consulta de usuários precisando de ajuda.</p>
+<h1 id="porque-decidi-criar-uma-aplicação">Porque decidi criar uma aplicação?
+</h1><p>Até 2018, eu não me preocupava em me organizar financeiramente. Não que eu gastasse de maneira desordenada, mas eu apenas me preocupava se eu não estava gastando mais do que ganhava. Isso porque no geral eu ganhava mais ou menos o suficiente para me manter, e na época meu foco era mais em evoluir na carreira do que economizar dinheiro. Esse cenário mudou em 2018, com um novo emprego e uma remuneração substancialmente maior, e criar metas de economia começou a fazer bastante sentido.</p>
+<p>As aplicações de gestão financeira pessoal nunca me satisfizeram, basicamente porque seu foco é geralmente controlar o seu gasto mensal dividido por categoria, para que você possa tomar decisões de corte em despesas. Algumas dessas aplicações inclusive conectam com aplicações bancárias para monitorar seu cartão de crédito e sua conta. Esse não era muito meu foco, porque meu objetivo era basicamente controlar o quanto mensalmente eu estava conseguindo economizar. Eu estabeleci uma meta de quantia de dinheiro que eu planejava guardar mês a mês, e no fim de cada período eu precisava saber se eu tinha atingido o objetivo, ou não. Simples.</p>
+<p>O que eu montei na época foi uma planilha no excel com alguns cálculos incorporados, onde eu incluía o valor que eu possuía em cada uma das minhas contas bancárias ou contas de investimento, no fim de cada mês. Essa planilha fazia uma soma e comparava com o somatório do mês anterior, e no final dava o quanto foi essa variação. Esse sistema foi suficiente por bastante tempo, mas tinha um defeito quando falamos de controlar contas de investimento: às vezes eu economizava bastante dinheiro, mas, se as flutuações do valor das minhas aplicações fossem negativas durante o mês, o somatório era puxado para baixo e eu acabava não cumprindo a meta. Ou o contrário: às vezes eu não economizava o suficiente, mas as flutuações positivas dos investimentos faziam com que eu batesse a meta. Isso fez com que eu começasse a pensar em alternativas para fazer um cálculo mais rebuscado. Uma planilha melhorada provavelmente seria suficiente, mas o excel possui uma filosofia muito espacial com suas células, e me faltava conhecimento para fazer algo muito mais elaborado.</p>
+<p>Minha segunda alternativa foi o Notion, mas suas base de dados automáticas tem limitações sobre relações, e muita coisa precisa ser feita de maneira manual para funcionar corretamente. O Coda é uma aplicação parecida que dá mais possibilidade de automações, mas o plano grátis possui limitação de linhas que podem ser incluídas. Embora essa limitação ainda fosse bastante permissiva, eu preferi criar as automações de tal maneira que não me deixasse sujeito a uma plataforma paga. No fim, decidi finalmente criar minha própria aplicação, que em suas primeiras versões rodava diretamente no meu computador e exportava algumas informações para o Notion. Utilizei esse programa dessa forma por 2 anos, até que decidi publicá-lo para facilitar a usabilidade e para que outras pessoas pudessem usar, o que me motivaria provavelmente a trabalhar mais fielmente em sua melhoria.</p>
+<h1 id="para-quem-essa-aplicação-pode-ser-útil">Para quem essa aplicação pode ser útil?
+</h1><p>Se você tem interesse de, de fato, categorizar os seus gastos, para de alguma forma conseguir colocar limites por categoria, existem outras aplicações que são específicas para fazer isso. Eu não tentei ir por esse caminho, pois esse nível de controle nunca foi recompensador para mim. Ao mesmo tempo, se você quiser controlar seus investimentos, para identificar a eficiência da sua carteira, para otimizar retornos, provavelmente também existem aplicações bastante especializadas nesse tipo de coisa. Eu não sou um investidor assíduo, e no geral busco aplicações sem muito risco ou flutuações, então não preciso tanto desse nível de acompanhamento. Sinto que o Meu Bolso tenta resolver problemas mais simples e mais primordiais do que esses.</p>
+<p>Essa minha aplicação serve principalmente para três casos:</p>
+<ul>
+<li>Se você tem um plano a longo prazo de aumento de patrimônio e tem interesse em estabelecer uma meta mensal de economia, para garantir seus objetivos estão sendo cumpridos; ou</li>
+<li>Se você quer descobrir quanto seus investimentos tem contribuído, de maneira bruta, para o aumento do seu patrimônio, mês a mês; ou</li>
+<li>Se você possui uma meta de economia mensal para algum objetivo de curto prazo, como uma viagem, ou outra compra pontual, sem perder o rastro do seu patrimônio.</li>
+</ul>
+<p>Ter uma meta mensal fácil de calcular me incentivou nos anos passados a economizar mais e a evitar gastos mais supérfluos em busca dessa meta, já que eu me sentia recompensado por isso, o que fez com que meu patrimônio crescesse substancialmente e eu pudesse me organizar financeiramente para alcançar objetivos que antes me pareciam irreais. Ter um tato sobre quanto seu dinheiro tem rendido passivamente também ajuda a investir cada vez mais.</p>
+<p>Sinto que controlar gastos, economia e rendimento de maneira mais macro é uma forma muito mais recompensadora, do que micro-gerenciar essas coisas. E suficiente para, por exemplo, começar a calcular um plano de aposentadoria. No fim, o Meu Bolso é sobre recompensar esse esforço de economia e isso nos coloca num ciclo virtuoso para que continuemos seguindo o plano.</p>
+<h1 id="como-o-meu-bolso-funciona">Como o Meu Bolso funciona
+</h1><p>O Meu Bolso funciona de maneira relativamente simples. No fim de cada mês (ou em alguma outra data que ache pertinente, desde que seja sempre no mesmo dia), você precisa visitar cada uma das suas contas bancárias, ou contas em agências financeiras, e incluir na plataforma os valores dos saldos. Você também precisa incluir as suas receitas principais - como o salário. Não é necessário incluir receitas como rendimento de investimentos, já que com o saldo a aplicação já consegue calcular isso automaticamente, mas é necessário incluir as movimentações nessas contas, como novos investimentos ou retiradas. Parece bastante trabalho, mas não é. Mesmo com umas 7 contas a atualizar, eu não demoro mais do que 15 minutos por mês nesse processo.</p>
+<p>Cada conta em uma agência dessas precisa ser mapeada para uma conta dentro da plataforma, então é necessário uma configuração inicial que reflita o seu contexto atual. Essas contas cadastradas possuem tipos que ajudam a aplicação a calcular os gastos e rendimentos mais facilmente.</p>
+<p>Por fim, você tem acesso a cofrinhos, que servem para reservar parte do dinheiro para alguns objetivos de curto ou médio prazo, como uma viagem, ou uma compra maior que você precisa economizar durante vários meses para conseguir o valor necessário. Esses cofrinhos funcionam como um “pré-gasto”, para que o mês que de fato você realize essa compra não tenha o objetivo sendo erroneamente sobre-impactado, mesmo que esse gasto tenha sido planejado.</p>
+<p>Com todas essas inclusões, a ferramenta consegue calcular:</p>
+<ul>
+<li>o seu patrimônio total;</li>
+<li>o quanto seu patrimônio evoluiu de um mês para o outro;</li>
+<li>o quanto dessa evolução foi devido a ganhos passivos e o quanto tem rendido no total sua carteira de investimentos;</li>
+<li>a sua receita total;</li>
+<li>o quanto das suas receitas você conseguiu economizar, em valores absolutos e em porcentagem;</li>
+<li>o quanto você tem reservado em cofrinhos para poder gastar em compras maiores;</li>
+</ul>
+<p>Esses valores calculados ficam armazenados em um histórico, e você tem uma idéia de como anda a sua evolução patrimonial mensalmente.</p>
+<p>No futuro breve, queremos incluir maneiras de exportar essas informações em formato .csv e para o Notion, para que você possa processar essas informações da forma que quiser.</p>
+<h1 id="próximos-passos">Próximos passos
+</h1><p>Temos dois artigos nesse blog que ajudam a dar os primeiros passos na aplicação e que explicam alguns conceitos fundamentais. Os artigos podem ser acessados através dos links:</p>
+<ul>
+<li><a class="link" href="https://lucasmaia.dev/post/meu-bolso-primeiros-passos"  target="_blank" rel="noopener"
+    >Primeiros passos na Meu Bolso</a></li>
+<li><a class="link" href="https://lucasmaia.dev/post/meu-bolso-principais-conceitos"  target="_blank" rel="noopener"
+    >Principais Conceitos da Meu Bolso</a></li>
+</ul>
+<p>Ou, se preferir já começar a utilizar a aplicação Meu Bolso, ela está disponível em <a class="link" href="https://meubolso.lucasmaia.dev"  target="_blank" rel="noopener"
+    >https://meubolso.lucasmaia.dev</a>.</p>
+<h1 id="como-posso-ajudar">Como posso ajudar?
+</h1><p>Eu geralmente trabalho no Meu Bolso sozinho e nas minhas horas vagas, e mantenho os servidores com meu próprio dinheiro, o que significa que ajuda é bem-vinda.</p>
+<p>Apesar de ser um usuário assíduo da minha própria aplicação, eu conheço muito bem como ela funciona e que caminhos tomar, e o que cada mensagem de erro significa, mas não tenho como garantir que todos os possíveis cenários de erro estão cobertos e que todas as mensagens de feedback são intuitivas. Se você perceber algum problema, ou tiver alguma idéia de como melhorar algum fluxo, para deixá-lo mais intuitivo, entre em contato comigo pelo e-mail <a class="link" href="mailto:contato@lucasmaia.dev" >contato@lucasmaia.dev</a>, ou deixe um comentário nessa postagem.</p>
+<p>Financeiramente, ainda estou pensando em formas de conseguir ajuda. Vou atualizar essa postagem, ou escrever alguma específica no futuro, quando tiver um plano definido. Essa ajuda financeira será destinada principalmente a manutenção dos custos dos servidores e para a compra de um design system para melhorar a aparência do sistema, que, apesar de funcional, não vai ganhar nenhum concurso de design.</p>
+<h1 id="um-comentário-rápido-sobre-responsividade">Um comentário rápido sobre responsividade
+</h1><p>Embora eu tenha tentado deixar a interface a mais responsiva possível, é um tipo de conteúdo que é difícil adaptar para telas menores, com a quantidade de tabelas que existe. Se possível, recomendo o acesso via computadores ou tablets. Qualquer sugestão de melhoria é bem-vinda.</p>
+<h1 id="imagem-de-capa">Imagem de capa
+</h1><p>A foto de capa é de <a class="link" href="https://unsplash.com/@mikehindle"  target="_blank" rel="noopener"
+    >Mike Hindle</a> e está disponível no <a class="link" href="https://unsplash.com/photos/9cYHodbnUIA"  target="_blank" rel="noopener"
+    >Unsplash</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "lucasmaia-dev" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 lucasmaia.dev
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.6064a9d1a87f1d1203c1d9137ec0132dbd0f919f4c984577f1cde05752017845.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
