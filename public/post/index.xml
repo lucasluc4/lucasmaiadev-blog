@@ -7,13 +7,32 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>pt-br</language>
         <copyright>lucasmaia.dev</copyright>
-        <lastBuildDate>Sun, 02 Feb 2025 18:41:18 -0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Mar 2025 17:55:43 -0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sobre a nova funcionalidade de contas de patrimônio e como acompanhar bens não-financeiros na Meu Bolso</title>
+        <link>http://localhost:1313/post/meu-bolso-conta-patrimonio/</link>
+        <pubDate>Tue, 04 Mar 2025 17:55:43 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/meu-bolso-conta-patrimonio/</guid>
+        <description>&lt;img src="http://localhost:1313/post/meu-bolso-conta-patrimonio/benjamin-chambon-0vnmC_UWuMg-unsplash.jpg" alt="Featured image of post Sobre a nova funcionalidade de contas de patrimônio e como acompanhar bens não-financeiros na Meu Bolso" /&gt;&lt;p&gt;Até agora, existiam apenas dois tipos de contas na MeuBolso: contas de investimento e depósito. A diferença entre as duas é que as contas de investimento podem gerar ganhos passivos, e, por conta disso, as movimentações precisam ser todas cadastradas para que o cálculo de rendimentos aconteça corretamente.
+Até então, não era impossível rastrear patrimônios não-financeiros. Você poderia cadastrá-los como contas de depósito e ir atualizando o valor atual desses bens para que eles fossem contabilizados no valor total de patrimônio. A desvantagem disso é que se for importante para você acompanhar seus bens financeiros de maneira separada, isso se torna impossível. Por exemplo, se você quiser rastrear e colocar metas sobre o quanto de economia estritamente financeira foi feita em um mês, isso não seria possível.
+Agora foi lançado um tipo de conta novo para rastrear esse tipo de bem, chamado de &amp;ldquo;patrimônio&amp;rdquo;. Se você quiser incluir imóveis na sua contabilidade, cadastre esse imóvel como uma conta do tipo &amp;ldquo;patrimônio&amp;rdquo; e comece a incluir o valor dele nos seus lançamentos mensais.
+Os valores de contabilidade antigos agora incluem essas contas. Por exemplo, a economia líquida e o patrimônio líquido incluem esses valores. Mas, agora, você possui alguns valores novos sendo calculados: economia financeira, junto com sua porcentagem, e o seu patrimônio financeiro. A economia financeira considera apenas a economia feitas em contas de depósito ou investimento e o patrimônio financeiro considera apenas valores nesses tipos de conta. Vale salientar que a economia financeira deduz os valores incluídos como saldo de compras. Ou seja, de certa maneira, a economia e patrimônio financeiros são os antigos economia e patrimônio líquidos, quando esses bens não-financeiros não eram incluídos.&lt;/p&gt;
+&lt;h2 id=&#34;como-rastrear-imóveis-na-meu-bolso&#34;&gt;Como rastrear imóveis na Meu Bolso
+&lt;/h2&gt;&lt;p&gt;Caso o imóvel seja quitado, você pode optar por periodicamente realizar um processo de avaliação e atualizar o valor do imóvel na plataforma.&lt;/p&gt;
+&lt;p&gt;Caso o imóvel seja financiado, minha sugestão é mês a mês adicionar no montante anterior o valor de amortização da parcela daquele mês. Geralmente essa informação existe no seu extrato de financiamento disponibilizado pelo banco. Para calcular o montante inicial, eu sugiro diminuir do valor total do imóvel o valor da dívida do financiamento naquele mês.&lt;/p&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@benjamin_photo_lab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Benjamin Chambon&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/a-building-with-clothes-hanging-out-to-dry-0vnmC_UWuMg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Primeiros Passos na Meu Bolso</title>
         <link>http://localhost:1313/post/meu-bolso-primeiros-passos/</link>
         <pubDate>Sun, 02 Feb 2025 18:41:18 -0300</pubDate>
         
         <guid>http://localhost:1313/post/meu-bolso-primeiros-passos/</guid>
-        <description>&lt;h1 id=&#34;sobre-o-que-é-este-artigo&#34;&gt;Sobre o que é este artigo
+        <description>&lt;img src="http://localhost:1313/post/meu-bolso-primeiros-passos/mike-hindle-ppkTc8mp8ZE-unsplash.jpg" alt="Featured image of post Primeiros Passos na Meu Bolso" /&gt;&lt;h1 id=&#34;sobre-o-que-é-este-artigo&#34;&gt;Sobre o que é este artigo
 &lt;/h1&gt;&lt;p&gt;Esse artigo vai ser um passo a passo sobre o que fazer para gerenciar suas finanças na aplicação Meu Bolso. Isso serve como um guia para explicar os principais processos, mas também serve como uma demonstração sobre o que você vai conseguir como produto ao utilizar o sistema.&lt;/p&gt;
 &lt;h1 id=&#34;configuração-da-conta&#34;&gt;Configuração da conta
 &lt;/h1&gt;&lt;p&gt;O primeiro passo é realizar o login. Ao acessar a aplicação em &lt;a class=&#34;link&#34; href=&#34;https://meubolso.lucasmaia.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -225,6 +244,10 @@
 &lt;p&gt;Caso ainda tenha dúvida em algum conceito, mesmo lendo nosso artigo completo, deixe um comentário para que eu possa pessoalmente ajudar, ou talvez a própria comunidade vá ao seu auxílio.&lt;/p&gt;
 &lt;p&gt;Se perceber algum tipo de comportamento inesperado, pode ser que isso seja uma falha da aplicação. Você pode me ajudar reportando esses problemas nos comentários para que eu possa analisar assim que possível. Nesses casos, capturas de tela podem ser muito valiosas, apesar delas não poderem ser anexadas nos comentários.&lt;/p&gt;
 &lt;p&gt;Obrigado e boas economias!&lt;/p&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mikehindle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mike Hindle&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/a-black-and-white-photo-of-a-circular-window-ppkTc8mp8ZE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -233,7 +256,7 @@
         <pubDate>Sun, 02 Feb 2025 18:37:04 -0300</pubDate>
         
         <guid>http://localhost:1313/post/meu-bolso-principais-conceitos/</guid>
-        <description>&lt;h1 id=&#34;sobre-o-que-é-este-artigo&#34;&gt;Sobre o que é este artigo
+        <description>&lt;img src="http://localhost:1313/post/meu-bolso-principais-conceitos/mike-hindle-OIAIVrlH2lg-unsplash.jpg" alt="Featured image of post Principais Conceitos da Meu Bolso" /&gt;&lt;h1 id=&#34;sobre-o-que-é-este-artigo&#34;&gt;Sobre o que é este artigo
 &lt;/h1&gt;&lt;p&gt;Esse artigo vai explicar alguns conceitos importantes usados pelo Meu Bolso para o cálculo de contabilidade. Saber isso é útil principalmente para ganhar liberdade sobre como proceder em situações não previstas no tutorial, que pode ser acessado &lt;a class=&#34;link&#34; href=&#34;https://lucasmaia.dev/post/meu-bolso-primeiros-passos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;clicando aqui&lt;/a&gt;. Se você quer um passo a passo de como usar o sistema, o artigo de tutorial é de fato mais indicado para esse fim.&lt;/p&gt;
 &lt;h1 id=&#34;as-principais-entidades-explicadas&#34;&gt;As principais entidades explicadas
@@ -261,20 +284,24 @@
 &lt;h3 id=&#34;contas-de-investimento&#34;&gt;Contas de investimento
 &lt;/h3&gt;&lt;p&gt;Contas de investimento são contas que possuem algum rendimento passivo. Contas em corretoras deveriam ser cadastradas como contas de investimento. Não é necessário cadastrar cada novo investimento individual realizado nessa corretora, ou cada investimento que venceu no período, desde que o dinheiro permaneça na corretora, já que o cálculo de contabilidade está mais interessado no montante final acumulado. Para que a aplicação consiga calcular corretamente o valor passivo de ganho, para essas contas é necessário registrar todas as retiradas e depósitos realizados. Com esses valores registrados e o valor de saldo no mês anterior dessa conta, conseguimos calcular o valor esperado no fim de cada mês. Qualquer diferença entre o valor esperado e o valor real é considerado uma flutuação dos investimentos e é usado para calcular o ganho passivo total da carteira.&lt;/p&gt;
 &lt;p&gt;Por exemplo:&lt;/p&gt;
-&lt;p&gt;Se eu tinha uma conta com 1000 reais, e um investimento de 200 reais venceu. Desses 200 reais, 100 eu movi para uma outra conta e 100 eu reinvesti ou mantive na corretora para reinvestir no futuro, então eu preciso cadastrar na plataforma uma retirada de 100 reais. No fim do mês, a aplicação espera que eu tenha 1900 nessa conta. Se eu cadastro um valor de 1950 como saldo, o sistema calcula que esses 50 reais foram um rendimento passivo.&lt;/p&gt;
+&lt;p&gt;Se eu tinha uma conta com 1000 reais, e um investimento de 200 reais venceu. Desses 200 reais, 100 eu movi para uma outra conta e 100 eu reinvesti ou mantive na corretora para reinvestir no futuro, então eu preciso cadastrar na plataforma uma retirada de 100 reais. No fim do mês, a aplicação espera que eu tenha 900 nessa conta. Se eu cadastro um valor de 950 como saldo, o sistema calcula que esses 50 reais foram um rendimento passivo.&lt;/p&gt;
 &lt;h2 id=&#34;patrimônio&#34;&gt;Patrimônio
 &lt;/h2&gt;&lt;p&gt;Para cada conta cadastrada, é importante cadastrar o patrimônio associado a essa conta para cada novo período, que é basicamente o seu saldo final no mês. Se uma conta possuía um saldo no mês anterior e nenhum saldo é cadastrado para o mês corrente, então o saldo é considerado como zero. Nesse caso, pode acontecer um decréscimo significativo no patrimônio líquido e total calculados.&lt;/p&gt;
 &lt;h2 id=&#34;transações&#34;&gt;Transações
 &lt;/h2&gt;&lt;p&gt;Existem quatro tipo de transações que precisam ser cadastradas: salários e bônus do mês, e depósitos e retiradas em contas de investimento. Salários e bônus são associados a uma conta, mas essa associação não afeta o cálculo de contabilidade, já que o valor da receita total é calculada somando o total de transações de salário e bônus independentemente da conta, mas recomendo associar sempre a contas de depósito. O tipo de transação, seja bônus ou salário, também não afeta o cálculo final de receita.&lt;/p&gt;
-&lt;p&gt;Depósitos e retiradas em contas de investimento precisam ser cadastradas para que a aplicação calcule corretamente os juros e dividendos do mês. Sem nenhuma transação desse tipo cadastrada, o sistema vai entender que a diferença de saldo de um mês para o outro é totalmente devido a flutuações de investimentos. Caso o dinheiro não saia da conta da corretora, por exemplo, se um rendimento vence, mas o dinheiro não é retirado ou é reinvestido em outro ativo na mesma corretora, não é necessário cadastrar transações. Se você fez uma retirada e um depósito em uma conta de investimento, você pode cadastrar apenas uma transação com a diferença entre os dois valores. Será uma transação de retirada se foi retirado mais dinheiro do que foi depositado, ou uma transação de depósito se foi depositado mais dinheiro do que foi retirado.&lt;/p&gt;
+&lt;p&gt;Depósitos e retiradas em contas de investimento precisam ser cadastradas para que a aplicação calcule corretamente os juros e dividendos do mês. Sem nenhuma transação desse tipo cadastrada, o sistema vai entender que a diferença de saldo de um mês para o outro é totalmente devido a flutuações de investimentos. Caso o dinheiro não saia da conta da corretora, por exemplo, se um rendimento vence, mas o dinheiro não é retirado ou é reinvestido em outro ativo na mesma corretora, não é necessário cadastrar transações. Se você fez uma retirada e um depósito em uma conta de investimento, você pode optar por cadastrar apenas uma transação com a diferença entre os dois valores. Será uma transação de retirada se foi retirado mais dinheiro do que foi depositado, ou uma transação de depósito se foi depositado mais dinheiro do que foi retirado.&lt;/p&gt;
 &lt;h2 id=&#34;cofrinho-de-compras&#34;&gt;Cofrinho de compras
 &lt;/h2&gt;&lt;p&gt;Às vezes, fazemos compras grandes que precisamos guardar dinheiro por alguns meses para conseguir juntar o valor, sem afetar nossas metas de economia. Imagine o cenário que você tem uma conta com 1000 reais e tem a meta de economizar 100 reais por mês. No primeiro mês, você consegue economizar 150 reais, e o valor do saldo da sua conta vai para 1150, e você cumpre a meta, mas já que 50 reais a mais foram economizados, você quer usar esse dinheiro no futuro para comprar algo. No segundo mês, você consegue economizar novamente 150 reais, mas decide gastar os 50 reais sobressalentes junto com os 50 do mês anterior para fazer uma compra de 100 reais. No fim do mês, você vai ter um saldo de 1200 reais (1150 do mês anterior, mais 150 de economiza, menos 100 reais da compra), e o sistema vai entender que você economizou apenas 50 reais, e descumpriu a meta, apesar disso não ser verdade, já que em dois meses você economizou 200 reais.&lt;/p&gt;
-&lt;p&gt;Os cofrinhos servem para ajustar esse tipo de cenário. Se em algum mês você conseguiu economizar algum valor extra e planeja usar esse valor no futuro para uma compra maior, juntando com economias de outros meses, você deve adicionar esse valor entra no cofrinho, para que isso não afete o cálculo de economia no mês que você finalmente fizer a compra.&lt;/p&gt;
+&lt;p&gt;Os cofrinhos servem para ajustar esse tipo de cenário. Se em algum mês você conseguiu economizar algum valor extra e planeja usar esse valor no futuro para uma compra maior, juntando com economias de outros meses, você deve adicionar esse valor extra no cofrinho, para que isso não afete o cálculo de economia no mês que você finalmente fizer a compra.&lt;/p&gt;
 &lt;h1 id=&#34;próximos-passos&#34;&gt;Próximos passos
 &lt;/h1&gt;&lt;p&gt;Caso ainda tenha dúvida em algum conceito, ler o nosso &lt;a class=&#34;link&#34; href=&#34;https://lucasmaia.dev/post/meu-bolso-primeiros-passos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;artigo de tutorial passo a passo&lt;/a&gt; pode ajudar, mas, se mesmo assim isso não for suficiente, deixe um comentário para que eu possa pessoalmente ajudar, ou talvez a própria comunidade vá ao seu auxílio.&lt;/p&gt;
 &lt;p&gt;Se perceber algum tipo de comportamento inesperado, pode ser que isso seja uma falha da aplicação. Você pode me ajudar reportando esses problemas nos comentários para que eu possa analisar assim que possível. Nesses casos, capturas de tela podem ser muito valiosas, apesar delas não poderem ser anexadas nos comentários.&lt;/p&gt;
 &lt;p&gt;Obrigado e boas economias!&lt;/p&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mikehindle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mike Hindle&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/a-black-and-white-photo-of-a-square-object-OIAIVrlH2lg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -283,7 +310,7 @@
         <pubDate>Sun, 26 Jan 2025 17:54:56 -0300</pubDate>
         
         <guid>http://localhost:1313/post/aplicacao-meu-bolso/</guid>
-        <description>&lt;p&gt;Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em &lt;a class=&#34;link&#34; href=&#34;https://meubolso.lucasmaia.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="http://localhost:1313/post/aplicacao-meu-bolso/mike-hindle-9cYHodbnUIA-unsplash.jpg" alt="Featured image of post A Aplicação Meu Bolso" /&gt;&lt;p&gt;Em 2024, eu decidi lançar minha aplicação financeira pessoal de maneira pública, mas por ter sido um ano bem atribulado, principalmente do ponto de vista financeiro, acabei fazendo o lançamento apenas em 2025, depois de ter me dedicado a finalizar uma série de ajustes no código. Lancei faltando terminar alguns, ainda, mas só divulguei depois que fiquei satisfeito com uma versão zero, inicial. A aplicação, com sua versão atual, pode ser acessada em &lt;a class=&#34;link&#34; href=&#34;https://meubolso.lucasmaia.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://meubolso.lucasmaia.dev&lt;/a&gt;, e espero que ela possa ajudar você, leitor, assim como tem me ajudado nesses últimos anos.&lt;/p&gt;
 &lt;p&gt;À medida que eu for lançando novas versões com novas funcionalidades, vou criando novos posts para divulgar e explicar como tudo funciona; e vou adicionar links aqui mesmo, neste artigo, para que isso funcione como um índice para consulta de usuários precisando de ajuda.&lt;/p&gt;
 &lt;h1 id=&#34;porque-decidi-criar-uma-aplicação&#34;&gt;Porque decidi criar uma aplicação?
@@ -317,8 +344,14 @@
 &lt;p&gt;Esses valores calculados ficam armazenados em um histórico, e você tem uma idéia de como anda a sua evolução patrimonial mensalmente.&lt;/p&gt;
 &lt;p&gt;No futuro breve, queremos incluir maneiras de exportar essas informações em formato .csv e para o Notion, para que você possa processar essas informações da forma que quiser.&lt;/p&gt;
 &lt;h1 id=&#34;próximos-passos&#34;&gt;Próximos passos
-&lt;/h1&gt;&lt;p&gt;Eu planejo escrever uma série de artigos para explicar o funcionamento da aplicação como um todo, e alguns guias e tutorias de ajuda. Vou adicionar os endereços aqui à medida que conseguir concluí-los.&lt;/p&gt;
-&lt;p&gt;Por enquanto, o próximo passo é acessar a começar a utilizar a aplicação Meu Bolso disponível em &lt;a class=&#34;link&#34; href=&#34;https://meubolso.lucasmaia.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;/h1&gt;&lt;p&gt;Temos dois artigos nesse blog que ajudam a dar os primeiros passos na aplicação e que explicam alguns conceitos fundamentais. Os artigos podem ser acessados através dos links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lucasmaia.dev/post/meu-bolso-primeiros-passos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Primeiros passos na Meu Bolso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lucasmaia.dev/post/meu-bolso-principais-conceitos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Principais Conceitos da Meu Bolso&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ou, se preferir já começar a utilizar a aplicação Meu Bolso, ela está disponível em &lt;a class=&#34;link&#34; href=&#34;https://meubolso.lucasmaia.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://meubolso.lucasmaia.dev&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;como-posso-ajudar&#34;&gt;Como posso ajudar?
 &lt;/h1&gt;&lt;p&gt;Eu geralmente trabalho no Meu Bolso sozinho e nas minhas horas vagas, e mantenho os servidores com meu próprio dinheiro, o que significa que ajuda é bem-vinda.&lt;/p&gt;
@@ -326,6 +359,10 @@
 &lt;p&gt;Financeiramente, ainda estou pensando em formas de conseguir ajuda. Vou atualizar essa postagem, ou escrever alguma específica no futuro, quando tiver um plano definido. Essa ajuda financeira será destinada principalmente a manutenção dos custos dos servidores e para a compra de um design system para melhorar a aparência do sistema, que, apesar de funcional, não vai ganhar nenhum concurso de design.&lt;/p&gt;
 &lt;h1 id=&#34;um-comentário-rápido-sobre-responsividade&#34;&gt;Um comentário rápido sobre responsividade
 &lt;/h1&gt;&lt;p&gt;Embora eu tenha tentado deixar a interface a mais responsiva possível, é um tipo de conteúdo que é difícil adaptar para telas menores, com a quantidade de tabelas que existe. Se possível, recomendo o acesso via computadores ou tablets. Qualquer sugestão de melhoria é bem-vinda.&lt;/p&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@mikehindle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mike Hindle&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/9cYHodbnUIA&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -349,6 +386,10 @@
 &lt;li&gt;Se você tem interesse em saber mais sobre a minha aplicação Meu Bolso, acesse o artigo sobre, nesse link: &lt;a class=&#34;link&#34; href=&#34;https://www.lucasmaia.dev/post/aplicacao-meu-bolso/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.lucasmaia.dev/post/aplicacao-meu-bolso/&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@aridley88?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Andrew Ridley&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/a-multicolored-tile-wall-with-a-pattern-of-small-squares-jR4Zf-riEjI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

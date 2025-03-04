@@ -7,7 +7,41 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>pt-br</language>
         <copyright>lucasmaia.dev</copyright>
-        <lastBuildDate>Sun, 02 Feb 2025 18:41:18 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Mar 2025 17:55:43 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sobre a nova funcionalidade de contas de patrimônio e como acompanhar bens não-financeiros na Meu Bolso</title>
+        <link>http://localhost:1313/post/meu-bolso-conta-patrimonio/</link>
+        <pubDate>Tue, 04 Mar 2025 17:55:43 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/meu-bolso-conta-patrimonio/</guid>
+        <description>&lt;img src="http://localhost:1313/post/meu-bolso-conta-patrimonio/benjamin-chambon-0vnmC_UWuMg-unsplash.jpg" alt="Featured image of post Sobre a nova funcionalidade de contas de patrimônio e como acompanhar bens não-financeiros na Meu Bolso" /&gt;&lt;p&gt;Até agora, existiam apenas dois tipos de contas na MeuBolso: contas de investimento e depósito. A diferença entre as duas é que as
+contas de investimento podem gerar ganhos passivos, e, por conta disso, as movimentações precisam ser todas cadastradas para que o
+cálculo de rendimentos aconteça corretamente.&lt;/p&gt;
+&lt;p&gt;Até então não era impossível rastrear patrimônios não-financeiros. Você poderia cadastrá-los como contas de depósito e
+ir atualizando o valor atual desses bens para que eles fossem contabilizados no valor total de patrimônio. A desvantagem disso é
+que, se for importante para você acompanhar seus bens financeiros de maneira separada, isso se torna impossível. Por exemplo, se
+você quiser rastrear e colocar metas sobre o quanto de economia estritamente financeira foi feita em um mês, isso não seria possível.
+Agora foi lançado um tipo de conta novo para rastrear esse tipo de bem, chamado de &amp;ldquo;patrimônio&amp;rdquo;. Se você quiser incluir imóveis
+na sua contabilidade, cadastre esse imóvel como uma conta do tipo &amp;ldquo;patrimônio&amp;rdquo; e comece a incluir o valor dele nos seus
+lançamentos mensais.&lt;/p&gt;
+&lt;p&gt;Os valores de contabilidade antigos agora incluem essas contas. Por exemplo, a economia líquida e o patrimônio líquido
+incluem esses valores. Mas, agora, você possui alguns valores novos sendo calculados: economia financeira, junto com sua
+porcentagem, e o seu patrimônio financeiro. A economia financeira considera apenas a economia feitas em contas de
+depósito ou investimento e o patrimônio financeiro considera apenas valores nesses tipos de conta. Vale salientar que a
+economia financeira deduz os valores incluídos como saldo de compras. Ou seja, de certa maneira, a economia e patrimônio
+financeiros são os antigos economia e patrimônio líquidos, quando esses bens não-financeiros não eram incluídos.&lt;/p&gt;
+&lt;h2 id=&#34;como-rastrear-imóveis-na-meu-bolso&#34;&gt;Como rastrear imóveis na Meu Bolso
+&lt;/h2&gt;&lt;p&gt;Caso o imóvel seja quitado, você pode optar por periodicamente realizar um processo de avaliação e atualizar o
+valor do imóvel na plataforma.&lt;/p&gt;
+&lt;p&gt;Caso o imóvel seja financiado, minha sugestão é mês a mês adicionar no montante anterior o valor de amortização da
+parcela daquele mês. Geralmente essa informação existe no seu extrato de financiamento disponibilizado pelo banco. Para
+calcular o montante inicial, eu sugiro diminuir do valor total do imóvel o valor da dívida do financiamento naquele mês.&lt;/p&gt;
+&lt;h1 id=&#34;imagem-de-capa&#34;&gt;Imagem de capa
+&lt;/h1&gt;&lt;p&gt;A foto de capa é de &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@benjamin_photo_lab&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Benjamin Chambon&lt;/a&gt; e está disponível no &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/photos/a-building-with-clothes-hanging-out-to-dry-0vnmC_UWuMg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Primeiros Passos na Meu Bolso</title>
         <link>http://localhost:1313/post/meu-bolso-primeiros-passos/</link>
         <pubDate>Sun, 02 Feb 2025 18:41:18 -0300</pubDate>
@@ -265,15 +299,15 @@
 &lt;h3 id=&#34;contas-de-investimento&#34;&gt;Contas de investimento
 &lt;/h3&gt;&lt;p&gt;Contas de investimento são contas que possuem algum rendimento passivo. Contas em corretoras deveriam ser cadastradas como contas de investimento. Não é necessário cadastrar cada novo investimento individual realizado nessa corretora, ou cada investimento que venceu no período, desde que o dinheiro permaneça na corretora, já que o cálculo de contabilidade está mais interessado no montante final acumulado. Para que a aplicação consiga calcular corretamente o valor passivo de ganho, para essas contas é necessário registrar todas as retiradas e depósitos realizados. Com esses valores registrados e o valor de saldo no mês anterior dessa conta, conseguimos calcular o valor esperado no fim de cada mês. Qualquer diferença entre o valor esperado e o valor real é considerado uma flutuação dos investimentos e é usado para calcular o ganho passivo total da carteira.&lt;/p&gt;
 &lt;p&gt;Por exemplo:&lt;/p&gt;
-&lt;p&gt;Se eu tinha uma conta com 1000 reais, e um investimento de 200 reais venceu. Desses 200 reais, 100 eu movi para uma outra conta e 100 eu reinvesti ou mantive na corretora para reinvestir no futuro, então eu preciso cadastrar na plataforma uma retirada de 100 reais. No fim do mês, a aplicação espera que eu tenha 1900 nessa conta. Se eu cadastro um valor de 1950 como saldo, o sistema calcula que esses 50 reais foram um rendimento passivo.&lt;/p&gt;
+&lt;p&gt;Se eu tinha uma conta com 1000 reais, e um investimento de 200 reais venceu. Desses 200 reais, 100 eu movi para uma outra conta e 100 eu reinvesti ou mantive na corretora para reinvestir no futuro, então eu preciso cadastrar na plataforma uma retirada de 100 reais. No fim do mês, a aplicação espera que eu tenha 900 nessa conta. Se eu cadastro um valor de 950 como saldo, o sistema calcula que esses 50 reais foram um rendimento passivo.&lt;/p&gt;
 &lt;h2 id=&#34;patrimônio&#34;&gt;Patrimônio
 &lt;/h2&gt;&lt;p&gt;Para cada conta cadastrada, é importante cadastrar o patrimônio associado a essa conta para cada novo período, que é basicamente o seu saldo final no mês. Se uma conta possuía um saldo no mês anterior e nenhum saldo é cadastrado para o mês corrente, então o saldo é considerado como zero. Nesse caso, pode acontecer um decréscimo significativo no patrimônio líquido e total calculados.&lt;/p&gt;
 &lt;h2 id=&#34;transações&#34;&gt;Transações
 &lt;/h2&gt;&lt;p&gt;Existem quatro tipo de transações que precisam ser cadastradas: salários e bônus do mês, e depósitos e retiradas em contas de investimento. Salários e bônus são associados a uma conta, mas essa associação não afeta o cálculo de contabilidade, já que o valor da receita total é calculada somando o total de transações de salário e bônus independentemente da conta, mas recomendo associar sempre a contas de depósito. O tipo de transação, seja bônus ou salário, também não afeta o cálculo final de receita.&lt;/p&gt;
-&lt;p&gt;Depósitos e retiradas em contas de investimento precisam ser cadastradas para que a aplicação calcule corretamente os juros e dividendos do mês. Sem nenhuma transação desse tipo cadastrada, o sistema vai entender que a diferença de saldo de um mês para o outro é totalmente devido a flutuações de investimentos. Caso o dinheiro não saia da conta da corretora, por exemplo, se um rendimento vence, mas o dinheiro não é retirado ou é reinvestido em outro ativo na mesma corretora, não é necessário cadastrar transações. Se você fez uma retirada e um depósito em uma conta de investimento, você pode cadastrar apenas uma transação com a diferença entre os dois valores. Será uma transação de retirada se foi retirado mais dinheiro do que foi depositado, ou uma transação de depósito se foi depositado mais dinheiro do que foi retirado.&lt;/p&gt;
+&lt;p&gt;Depósitos e retiradas em contas de investimento precisam ser cadastradas para que a aplicação calcule corretamente os juros e dividendos do mês. Sem nenhuma transação desse tipo cadastrada, o sistema vai entender que a diferença de saldo de um mês para o outro é totalmente devido a flutuações de investimentos. Caso o dinheiro não saia da conta da corretora, por exemplo, se um rendimento vence, mas o dinheiro não é retirado ou é reinvestido em outro ativo na mesma corretora, não é necessário cadastrar transações. Se você fez uma retirada e um depósito em uma conta de investimento, você pode optar por cadastrar apenas uma transação com a diferença entre os dois valores. Será uma transação de retirada se foi retirado mais dinheiro do que foi depositado, ou uma transação de depósito se foi depositado mais dinheiro do que foi retirado.&lt;/p&gt;
 &lt;h2 id=&#34;cofrinho-de-compras&#34;&gt;Cofrinho de compras
 &lt;/h2&gt;&lt;p&gt;Às vezes, fazemos compras grandes que precisamos guardar dinheiro por alguns meses para conseguir juntar o valor, sem afetar nossas metas de economia. Imagine o cenário que você tem uma conta com 1000 reais e tem a meta de economizar 100 reais por mês. No primeiro mês, você consegue economizar 150 reais, e o valor do saldo da sua conta vai para 1150, e você cumpre a meta, mas já que 50 reais a mais foram economizados, você quer usar esse dinheiro no futuro para comprar algo. No segundo mês, você consegue economizar novamente 150 reais, mas decide gastar os 50 reais sobressalentes junto com os 50 do mês anterior para fazer uma compra de 100 reais. No fim do mês, você vai ter um saldo de 1200 reais (1150 do mês anterior, mais 150 de economiza, menos 100 reais da compra), e o sistema vai entender que você economizou apenas 50 reais, e descumpriu a meta, apesar disso não ser verdade, já que em dois meses você economizou 200 reais.&lt;/p&gt;
-&lt;p&gt;Os cofrinhos servem para ajustar esse tipo de cenário. Se em algum mês você conseguiu economizar algum valor extra e planeja usar esse valor no futuro para uma compra maior, juntando com economias de outros meses, você deve adicionar esse valor entra no cofrinho, para que isso não afete o cálculo de economia no mês que você finalmente fizer a compra.&lt;/p&gt;
+&lt;p&gt;Os cofrinhos servem para ajustar esse tipo de cenário. Se em algum mês você conseguiu economizar algum valor extra e planeja usar esse valor no futuro para uma compra maior, juntando com economias de outros meses, você deve adicionar esse valor extra no cofrinho, para que isso não afete o cálculo de economia no mês que você finalmente fizer a compra.&lt;/p&gt;
 &lt;h1 id=&#34;próximos-passos&#34;&gt;Próximos passos
 &lt;/h1&gt;&lt;p&gt;Caso ainda tenha dúvida em algum conceito, ler o nosso &lt;a class=&#34;link&#34; href=&#34;https://lucasmaia.dev/post/meu-bolso-primeiros-passos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;artigo de tutorial passo a passo&lt;/a&gt; pode ajudar, mas, se mesmo assim isso não for suficiente, deixe um comentário para que eu possa pessoalmente ajudar, ou talvez a própria comunidade vá ao seu auxílio.&lt;/p&gt;
