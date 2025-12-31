@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>lucasmaia.dev</copyright>
-    <lastBuildDate>Thu, 20 Nov 2025 18:27:24 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 10:35:55 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Personal Finance Manager Obsidian Plugin</title>
+      <link>http://localhost:1313/post/personal-finance-manager-obsidian-plugin/</link>
+      <pubDate>Wed, 31 Dec 2025 10:35:55 -0300</pubDate>
+      <guid>http://localhost:1313/post/personal-finance-manager-obsidian-plugin/</guid>
+      <description>The framework behind the Personal Finance Manager plugin is a simplified manner to answer a few questions at the end of every month:&#xA;What is my total patrimony value? How much money I saved this month? How much money I have invested? How much investment interest did I obtain? By tracking these 4 metrics, I was pushed to invest more and expend less, and to have more consciousness about those expenses, and the impacts of my own investments.</description>
+    </item>
     <item>
       <title>O fim (ou recomeço) do Meu Bolso</title>
       <link>http://localhost:1313/post/fim-recomeco-meu-bolso/</link>
